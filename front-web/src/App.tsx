@@ -1,9 +1,14 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <h1> I love Semana dev superior</h1>
+    <div>
+      <Header />
+      <Home />
+    </div>
   );
 }
 
